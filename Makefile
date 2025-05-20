@@ -2,9 +2,6 @@
 CXX = g++
 CXXFLAGS = -std=c++11 -Wall
 
-# Google Test libraries
-GTEST_LIBS = -lgtest -lgtest_main -pthread
-
 # Default target: build the calculator executable
 all: calculator
 
